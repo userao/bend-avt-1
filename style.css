@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+a:hover {
+  color: #09c;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #09c;
+}
+
+nav li {
+  padding: 1rem 1.5rem;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li:hover {
+  border-bottom: 2px solid #09c;
+}
